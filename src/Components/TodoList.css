@@ -15,7 +15,7 @@
     color: #333;
     margin-bottom: 20px;
 }
-.input-container{
+.input-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,18 +50,16 @@
     outline: none;
 }
 
-.heading_todo {
+.heading.todo {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
-.heading_todo h3 {
-    width: 100%;
-    height: 40px;
+.heading.todo h3 {
     font-size: 20px;
-    text-align: center;
+    margin: 0;
 }
 
 .delete-button {
@@ -99,21 +97,3 @@
     width: 170px;
     height: 25px;
 }
-
-.add-list-button {
-    background-color: rgb(46, 163, 46);
-    color: #fff;
-    border: none;
-    padding: 7px 20px;
-    font-size: 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 25px;
-}
-.todo_inside_list {
-    display: flex;
-    gap: 140px;
-    margin: 10px;
-}
-
